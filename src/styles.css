@@ -1,0 +1,7 @@
+body{
+    background-color: #C7ECEF;
+}
+.active-link {
+    color: red;
+    font-weight: bold;
+  }
