@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 export default function HelpLayout(){
     return(
         <div>
-            <h2>Website Help</h2>
+            <h2 className="m-2 text-center fw-bold">Website Help</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus suscipit beatae sint.</p>
 
             <nav>
