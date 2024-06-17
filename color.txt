@@ -1,0 +1,7 @@
+color #bc4123
+seco #2b3452
+
+install react router dom
+
+>npm install react-router-dom@6.4
+- Download job routes repo css colors code.

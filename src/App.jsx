@@ -15,13 +15,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Faq from "./pages/help/Faq";
 import Connect from "./pages/help/Connect";
-import NotFound from "./pages/help/NotFound";
-import CareersDetails from "./pages/careers/CareersDetails";
+import NotFound from "./pages/NotFound";
+import CareersDetails, { careersDetailsLoader } from "./pages/careers/CareersDetails";
 
 // layouts
 import RootLayout from "./layout/RootLayout";
 import HelpLayout from "./layout/HelpLayout";
-import Careers from "./pages/careers/Careers";
+import Careers, { careersLoader } from "./pages/careers/Careers";
 import CareersLayout from "./layout/CareersLayout";
 
 const router = createBrowserRouter(
@@ -42,10 +42,12 @@ const router = createBrowserRouter(
         <Route
           index
           element={<Careers />}
+          loader={careersLoader}
         ></Route>
 
         <Route
           path=":id"
+          loader={careersDetailsLoader}
           element={<CareersDetails />}
         >
         </Route>

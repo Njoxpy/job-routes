@@ -21,9 +21,9 @@ This project, Job Routes, is a simple React application created to learn and dem
 
 1. Clone the repository:
 
-   ```sh
-   git clone https://github.com/Njoxpy/job-routes
-   ```
+```sh
+git clone https://github.com/Njoxpy/job-routes
+```
 
 2. Navigate to the project directory:
 
@@ -45,7 +45,7 @@ npm install
 npm start
 ```
 
-2. Open your web browser and navigate to <http://localhost:3000> to view the application.
+2. Open your web browser and navigate to <http://localhost:5173> to view the application.
 
 3. Explore different routes and features within the application.
 

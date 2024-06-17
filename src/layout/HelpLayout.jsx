@@ -1,17 +1,20 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-export default function HelpLayout(){
-    return(
-        <div>
-            <h2 className="m-2 text-center fw-bold">Website Help</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus suscipit beatae sint.</p>
+export default function HelpLayout() {
+  return (
+    <div className="p-8">
+      <h2 className="text-center font-bold">Website Help</h2>
 
-            <nav>
-                <NavLink to="faq">View FAQ</NavLink>
-                <NavLink to="connect">Connect</NavLink>
-            </nav>
+      <nav className="text-center mt-2 focus:text-white">
+        <NavLink to="faq" className="bg-secondary p-2 text-white font-bold">
+          View FAQ
+        </NavLink>
+        <NavLink to="connect" className="bg-secondary p-2 text-white ml-2 font-bold">
+          Connect
+        </NavLink>
+      </nav>
 
-            <Outlet/>
-        </div>
-    )
+      <Outlet />
+    </div>
+  );
 }

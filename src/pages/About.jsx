@@ -1,15 +1,45 @@
 const About = () => {
-    return (
-        <div className="container mt-5">
-            <div>
-                <h2>About Us</h2>
-                <p>Welcome to Computer Science Jobs, where we help connect talented individuals with exciting opportunities in the field of computer science.</p>
-                <p>Our mission is to provide a platform that simplifies the job search process for both job seekers and employers, making it easier for companies to find the right candidates and for individuals to find their dream jobs.</p>
-                <p>Whether you're a recent graduate looking to kickstart your career or an experienced professional seeking new challenges, Computer Science Jobs is here to assist you every step of the way.</p>
-                <p>Join our community today and take the next big step in your career journey!</p>
-            </div>
+  return (
+    <div className="container p-8">
+      <div>
+        <h2 className="font-semibold text-center">About Us</h2>
+        <div>
+          <div className="p-2">
+            <h1 className="font-light text-center">Mission</h1>
+            <p className="border-l-4 p-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus accusantium beatae ipsum, cupiditate aspernatur
+              delectus aliquam illum, reprehenderit consequuntur incidunt
+              dolorem expedita numquam? Eaque optio architecto voluptate! Quos,
+              eum vel?
+            </p>
+          </div>
+
+          <div className="p-2">
+            <h1 className="font-light text-center">Vission</h1>
+            <p className="border-l-4 p-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus accusantium beatae ipsum, cupiditate aspernatur
+              delectus aliquam illum, reprehenderit consequuntur incidunt
+              dolorem expedita numquam? Eaque optio architecto voluptate! Quos,
+              eum vel?
+            </p>
+          </div>
+
+          <div className="p-2">
+            <h1 className="font-light text-center">Goals</h1>
+            <p className="border-l-4 p-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus accusantium beatae ipsum, cupiditate aspernatur
+              delectus aliquam illum, reprehenderit consequuntur incidunt
+              dolorem expedita numquam? Eaque optio architecto voluptate! Quos,
+              eum vel?
+            </p>
+          </div>
         </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default About;
