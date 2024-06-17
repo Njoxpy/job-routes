@@ -1,8 +1,8 @@
 const Home = () => {
     return (
-        <div className="container mt-5 bg-light">
+        <div className="container mt-5 bg-light bg-white hover:bg-red">
             <header className="text-center mb-5">
-                <h1>Welcome to Computer Science Jobs</h1>
+                <h1 className="">Welcome to Computer Science Jobs</h1>
             </header>
             <div>
                 <p>Are you a computer science enthusiast looking for your next career move? Look no further!</p>

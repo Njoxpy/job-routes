@@ -8,7 +8,6 @@ import {
   RouterProvider
 } from "react-router-dom";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // pages
 import Home from "./pages/Home";
@@ -22,7 +21,6 @@ import CareersDetails from "./pages/careers/CareersDetails";
 // layouts
 import RootLayout from "./layout/RootLayout";
 import HelpLayout from "./layout/HelpLayout";
-import { careersLoader } from "./pages/careers/Careers";
 import Careers from "./pages/careers/Careers";
 import CareersLayout from "./layout/CareersLayout";
 
@@ -44,7 +42,6 @@ const router = createBrowserRouter(
         <Route
           index
           element={<Careers />}
-          loader={careersLoader}
         ></Route>
 
         <Route
