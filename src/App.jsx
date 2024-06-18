@@ -5,9 +5,8 @@ import {
   Route,
   Link,
   NavLink,
-  RouterProvider
+  RouterProvider,
 } from "react-router-dom";
-
 
 // pages
 import Home from "./pages/Home";
@@ -16,13 +15,17 @@ import Contact from "./pages/Contact";
 import Faq from "./pages/help/Faq";
 import Connect from "./pages/help/Connect";
 import NotFound from "./pages/NotFound";
-import CareersDetails, { careersDetailsLoader } from "./pages/careers/CareersDetails";
+import CareersDetails, {
+  careersDetailsLoader,
+} from "./pages/careers/CareersDetails";
 
 // layouts
 import RootLayout from "./layout/RootLayout";
 import HelpLayout from "./layout/HelpLayout";
 import Careers, { careersLoader } from "./pages/careers/Careers";
 import CareersLayout from "./layout/CareersLayout";
+// error
+import EventError from "./pages/careers/EventError";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -39,28 +42,21 @@ const router = createBrowserRouter(
       <Route path="*" element={<NotFound />}></Route>
 
       <Route path="careers" element={<CareersLayout />}>
-        <Route
-          index
-          element={<Careers />}
-          loader={careersLoader}
-        ></Route>
+        <Route index element={<Careers />} loader={careersLoader}></Route>
 
         <Route
           path=":id"
           loader={careersDetailsLoader}
+          errorElement={<EventError />}
           element={<CareersDetails />}
-        >
-        </Route>
+        ></Route>
       </Route>
-
     </Route>
   )
-)
+);
 
 function App() {
-  return (
-    <RouterProvider router={router}></RouterProvider>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
