@@ -5,10 +5,14 @@ const CareersDetails = () => {
   const careerDetails = useLoaderData();
   return (
     <div className="p-8 bg-secondary text-white">
-      <h2 className="font-bold text-2xl">Carrier Details for {careerDetails.title}</h2>
+      <h2 className="font-bold text-2xl">
+        Carrier Details for {careerDetails.title}
+      </h2>
       <p>Starting Salary {careerDetails.salary}</p>
       <p className="text-whit">Based in {careerDetails.location}</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad praesentium iste libero quisquam ab, voluptatem deserunt fugit incidunt eaque. Fuga explicabo architecto temporibus nihil autem ducimus saepe placeat nam doloremque.</p>
+      <p>
+        Job Description: <span>{careerDetails.description}</span>
+      </p>
     </div>
   );
 };

@@ -4,55 +4,64 @@
             "id": 1,
             "title": "Frontend Developer",
             "salary": 40000,
-            "location": "Njombe Tanzania"
+            "location": "Njombe Tanzania",
+            "description": "Responsible for implementing visual elements that users see and interact with in a web application."
         },
         {
             "id": 2,
             "title": "Backend Developer",
             "salary": 60068,
-            "location": "Dar Es Salaam Tanzania"
+            "location": "Dar Es Salaam Tanzania",
+            "description": "Focuses on server-side development and database management to ensure seamless data delivery and processing."
         },
         {
             "id": 3,
             "title": "Java Developer",
             "salary": 5000,
-            "location": "New Delhi India"
+            "location": "New Delhi India",
+            "description": "Specializes in developing applications and software using the Java programming language."
         },
         {
             "id": 4,
             "title": "UI/UX Designer",
             "salary": 67000,
-            "location": "Tukuyu Tanzania"
+            "location": "Tukuyu Tanzania",
+            "description": "Creates user-friendly interfaces and ensures an optimal user experience across digital products."
         },
         {
             "id": 5,
             "title": "Plumber",
             "salary": 40000,
-            "location": "Arusha Tanzania"
+            "location": "Arusha Tanzania",
+            "description": "Installs, repairs, and maintains pipes, fixtures, and other plumbing systems."
         },
         {
             "id": 6,
             "title": "System Auditor",
             "salary": 40000,
-            "location": "Kigoma Tanzania"
+            "location": "Kigoma Tanzania",
+            "description": "Examines and evaluates an organization's information systems to ensure compliance and efficiency."
         },
         {
             "id": 7,
             "title": "Penetration Testing",
             "salary": 40000,
-            "location": "Goma DRC Congo"
+            "location": "Goma DRC Congo",
+            "description": "Identifies and exploits vulnerabilities in computer systems to improve security measures."
         },
         {
             "id": 8,
             "title": "System Designer",
             "salary": 40000,
-            "location": "Songea Tanzania"
+            "location": "Songea Tanzania",
+            "description": "Designs and architects information systems to meet business and technical requirements."
         },
         {
             "id": 9,
             "title": "Mobile Developer",
             "salary": 7000,
-            "location": "Njombe Tanzania"
+            "location": "Njombe Tanzania",
+            "description": "Develops software applications for mobile devices, ensuring functionality and performance."
         }
     ]
 }
