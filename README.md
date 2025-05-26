@@ -1,6 +1,6 @@
 # Job Routes
 
-This project, Job Routes, is a simple React application created to learn and demonstrate the usage of React Router for managing different routes within a single-page application (SPA). The application focuses on displaying job listings and allows users to navigate between different pages using React Router.
+**Job Routes** is a React app demonstrating React Router, fetching job listings from a MEN stack backend.
 
 ## Table of Contents
 
@@ -11,58 +11,59 @@ This project, Job Routes, is a simple React application created to learn and dem
 
 ## Features
 
-- **Route Navigation**: Utilizes React Router for managing routes and navigation within the application.
-- **Job Listings**: Displays a list of job listings fetched from an API(Not yet) or stored locally.
-- **Details Page**: Provides a detailed view of each job listing with additional information.
-- **Responsive Design**: Ensures compatibility and usability across various devices and screen sizes.
+- React Router for smooth SPA navigation
+- Job listings fetched from MEN stack backend
+- Detailed job view pages
+- Responsive design
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repo:
 
 ```sh
 git clone https://github.com/Njoxpy/job-routes
 ```
 
-2. Navigate to the project directory:
+2. **Backend setup:**
 
 ```sh
-cd job-routes
+cd logic
+npm install
 ```
 
-3. Install dependencies:
+3. **Setup environment variables:**
+
+- Copy the example env file:
 
 ```sh
+cp .env.example .env
+```
+
+- Open `.env` and update the variables (like MongoDB URI, PORT, etc.) with your own config.
+
+4. Start the backend server:
+
+```sh---
+
+That’s the full clear setup flow with env config included. Need me to help draft `.env.example` content or anything else?
+
+npm run dev
+```
+
+5. Open a new terminal for frontend:
+
+```sh
+cd ../client
 npm install
+npm run dev
 ```
 
 ## Usage
 
-1. Start The JSON Server, if You don't have json-server installed you can install using below command.
-
-```sh
-# install json-server
-
-# on windows
-npm i -g json-server
-
-# if you are on Linux run
-sudo npm i -g json-server
-
-# start json-server
-npx json-server --watch data/careers.json --port 3000
-```
-
-2. Start the development server:
-
-```sh
-npm start
-```
-
-3. Open your web browser and navigate to <http://localhost:5173> to view the application.
-
-4. Explore different routes and features within the application.
+- Backend API should be running at the configured port (default or as set in `.env`).
+- Frontend available at [http://localhost:5173](http://localhost:5173).
+- Browse job listings and details powered by your backend.
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
+Issues or PRs welcome! Let’s build this better together.
