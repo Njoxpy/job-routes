@@ -21,11 +21,7 @@ export default CareersDetails;
 
 export const careersDetailsLoader = async ({ params }) => {
   const { id } = params;
-  const response = await fetch(`http://localhost:3000/careers/${id}`);
+  const response = await fetch(`http://localhost:5000/api/v1/careers/${id}`);
   return response.json();
 };
 
-/**
-- What is I want to display a specific name for the career title.
-http://localhost:5173/careers/10
- */

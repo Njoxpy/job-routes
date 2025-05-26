@@ -9,7 +9,7 @@ const Careers = () => {
       <div>
         {careers.map((career) => (
           <div key={career.id}>
-            <NavLink to={career.id.toString()} className="hover:text-primary">
+            <NavLink to={career._id.toString()} className="hover:text-primary">
               {career.title}
             </NavLink>
             <p>
@@ -25,7 +25,7 @@ const Careers = () => {
 export default Careers;
 
 export const careersLoader = async () => {
-  const response = await fetch("http://localhost:3000/careers");
+  const response = await fetch("http://localhost:5000/api/v1/careers/");
 
   if (!response.ok) {
     throw Error("Could not fetch!")

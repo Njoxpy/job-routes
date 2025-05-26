@@ -2,38 +2,34 @@ const About = () => {
   return (
     <div className="container p-8">
       <div>
-        <h2 className="font-semibold text-center">About Us</h2>
+        <h2 className="font-semibold text-center text-2xl">About Us</h2>
         <div>
           <div className="p-2">
-            <h1 className="font-light text-center">Mission</h1>
+            <h1 className="font-light text-center text-xl">Mission</h1>
             <p className="border-l-4 p-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repellendus accusantium beatae ipsum, cupiditate aspernatur
-              delectus aliquam illum, reprehenderit consequuntur incidunt
-              dolorem expedita numquam? Eaque optio architecto voluptate! Quos,
-              eum vel?
+              Our mission is simple: to bridge the gap between opportunity and talent. 
+              We empower businesses to post job openings effortlessly and connect them 
+              with skilled professionals ready to make an impact. Whether it’s a startup 
+              hustle or an enterprise-level hunt, we streamline hiring for the modern world.
             </p>
           </div>
 
           <div className="p-2">
-            <h1 className="font-light text-center">Vission</h1>
+            <h1 className="font-light text-center text-xl">Vision</h1>
             <p className="border-l-4 p-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repellendus accusantium beatae ipsum, cupiditate aspernatur
-              delectus aliquam illum, reprehenderit consequuntur incidunt
-              dolorem expedita numquam? Eaque optio architecto voluptate! Quos,
-              eum vel?
+              We envision a world where meaningful work finds the right people—fast. 
+              A future where job seekers don’t get lost in endless applications, and employers 
+              don’t drown in unqualified resumes. Just real connections, real fast.
             </p>
           </div>
 
           <div className="p-2">
-            <h1 className="font-light text-center">Goals</h1>
+            <h1 className="font-light text-center text-xl">Goals</h1>
             <p className="border-l-4 p-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repellendus accusantium beatae ipsum, cupiditate aspernatur
-              delectus aliquam illum, reprehenderit consequuntur incidunt
-              dolorem expedita numquam? Eaque optio architecto voluptate! Quos,
-              eum vel?
+              - Simplify the job posting experience for employers<br/>
+              - Help job seekers discover opportunities tailored to their skills<br/>
+              - Build a trusted, smart ecosystem that accelerates hiring decisions<br/>
+              - Support local and global job markets with tools that work anywhere
             </p>
           </div>
         </div>

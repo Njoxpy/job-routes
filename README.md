@@ -42,7 +42,12 @@ npm install
 
 ```sh
 # install json-server
+
+# on windows
 npm i -g json-server
+
+# if you are on Linux run
+sudo npm i -g json-server
 
 # start json-server
 npx json-server --watch data/careers.json --port 3000
