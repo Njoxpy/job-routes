@@ -1,0 +1,49 @@
+# Node modules - always ignore this beast
+node_modules/
+
+# Env files - keep your secrets secret
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts (if you’re compiling stuff or using TypeScript later)
+dist/
+build/
+
+# IDE/editor stuff
+.vscode/
+.idea/
+*.swp
+
+# Coverage/testing
+coverage/
+.nyc_output/
+
+# Binaries
+*.exe
+*.out
+*.app
+
+# MongoDB dump files (if any)
+dump/
+
+# PM2 process files (if using PM2)
+pids/
+*.pid
+*.seed
+
+# Optional: if using Docker
+docker-compose.override.yml
+
+# Optional: if you're adding frontend later and it has its own folder
+client/node_modules/
+client/build/
